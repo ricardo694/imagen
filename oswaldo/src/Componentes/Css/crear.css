@@ -1,9 +1,7 @@
 .general{
     display: flex;
-    justify-content: right;
+    justify-content: center;
     align-items: center;
-    margin-right: 10%;
-    margin-top: 7%;
 }
 .formu{
     display: flex;
@@ -14,7 +12,7 @@
     width: min-content;
     height: 500px;
     border-radius: 10px;
-    background: linear-gradient(#e66465, #9198e5);
+    background: linear-gradient(#bac6d4, #9198e5);
     gap: 15px;
 
 }
@@ -25,6 +23,7 @@ height: 40px;
 font-size: 15px;
 background-color: transparent;
 color: black;
+border: none;
 }
 .botoNN{
 width: 100px;

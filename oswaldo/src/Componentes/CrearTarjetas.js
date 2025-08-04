@@ -3,16 +3,11 @@ import "../Componentes/Css/crear.css";
 
 
 export default class CrearTarjetas extends React.Component{
-    handleSubmit=e=>{
-        e.preventDefault()
-        console.log(this.state)
-    }
-    
     render(){
-        const {onChange,form}=this.props
+        const {onChange,form,onSubmit}=this.props
         return(
             <div className="general">
-                <form onSubmit={this.handleSubmit} className="formu">
+                <form onSubmit={onSubmit} className="formu">
                     <input 
                     onChange={onChange} 
                     value={form.title} 

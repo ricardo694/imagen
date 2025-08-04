@@ -10,10 +10,11 @@
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    width: 70%;
+    width: 50%;
     height: 250px;
-    border: solid 5px red;
+    border: solid 3px rgb(135, 148, 177);
     border-radius: 25px;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 .imagen{
