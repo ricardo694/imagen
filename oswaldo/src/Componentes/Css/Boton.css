@@ -1,0 +1,10 @@
+.Boton{
+    width: 200px;
+    height: 200px;
+    filter: drop-shadow(10px 10px 25px rgb(220, 21, 173));
+}
+.center{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}

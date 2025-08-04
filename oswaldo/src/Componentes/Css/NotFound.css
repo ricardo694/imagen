@@ -1,0 +1,32 @@
+/* body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} */
+.contenedorsecundario{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+
+}
+.error{
+    width: 500px;
+}
+.Titulo1{
+    font-size: 30px;
+}
+.Titulo2{
+    width: fit-content;
+    font-size: 30px;
+    padding: 20px;
+    border: rgb(116, 19, 241) 4px solid;
+    border-radius: 10px;
+}
+.Texto1{
+    text-align: center;
+    font-size: 20px;
+}

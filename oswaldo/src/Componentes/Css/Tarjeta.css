@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanchenjunga:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanchenjunga:wght@400;500;600;700&family=Tuffy:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+.todo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 70%;
+    height: 250px;
+    border: solid 5px red;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+.imagen{
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    filter: drop-shadow(10px 10px 25px red);
+}
+.Titulo{
+    font-family: "Kanchenjunga", sans-serif;
+    font-size: 30px;
+}
+.Texto{
+    font-family: "Tuffy", sans-serif;
+}

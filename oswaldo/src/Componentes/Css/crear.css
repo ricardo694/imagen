@@ -1,0 +1,40 @@
+.general{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-right: 10%;
+    margin-top: 7%;
+}
+.formu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-direction: column;
+    width: min-content;
+    height: 500px;
+    border-radius: 10px;
+    background: linear-gradient(#e66465, #9198e5);
+    gap: 15px;
+
+}
+.inputForm{
+width: 400px;
+border-radius: 5px;
+height: 40px;
+font-size: 15px;
+background-color: transparent;
+color: black;
+}
+.botoNN{
+width: 100px;
+height: 40px;
+border-radius: 10px;
+font-size: 17px;
+cursor: pointer;
+transition: ease-in-out;
+}
+.botoNN:hover{
+    background-color: black;
+    color: white;
+}
