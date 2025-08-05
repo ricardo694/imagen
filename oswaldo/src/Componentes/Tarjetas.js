@@ -1,5 +1,5 @@
 import React from "react"
-import './Css/Tarjeta.css'
+import '../Css/Tarjeta.css'
 export default class Tarjeta extends React.Component{
     render(){
         const {img,title,descrip,color}=this.props
@@ -7,7 +7,6 @@ export default class Tarjeta extends React.Component{
             <div className="todo">
                 <div className="contenedor" style={{background:`${color}`}}>
                     <div >
-                        {/* <img  src={img} alt="" className="imagen"/> */}
                         {img ? (
                             <img src={img} alt="" className="imagen" />
                         ) : null}

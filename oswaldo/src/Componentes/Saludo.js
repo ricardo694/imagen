@@ -1,5 +1,5 @@
 import React from "react";
-import './Css/Saludo.css'
+import '../Css/Saludo.css'
 const Saludo=({name})=>(
         <div>
             <div>

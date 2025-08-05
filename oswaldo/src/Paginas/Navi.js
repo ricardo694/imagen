@@ -1,9 +1,9 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import Crear from './Crear';
+import Contenedor from './ContenedorCrear';
 
 const Navi=()=>{
     const navigate =useNavigate()
-    return <Crear navigate={navigate}/>
+    return <Contenedor navigate={navigate}/>
 }
 export default Navi

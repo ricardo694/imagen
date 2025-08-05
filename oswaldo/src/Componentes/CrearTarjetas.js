@@ -1,5 +1,5 @@
 import React from "react";
-import "../Componentes/Css/crear.css";
+import "../Css/crear.css";
 
 
 export default class CrearTarjetas extends React.Component{

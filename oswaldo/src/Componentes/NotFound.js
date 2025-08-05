@@ -1,6 +1,6 @@
 import React from "react";
 import Not from '../Img/tristeza.jpg'
-import './Css/NotFound.css'
+import '../Css/NotFound.css'
 
 const NotFound=()=>(
         <div className="contenedorsecundario">

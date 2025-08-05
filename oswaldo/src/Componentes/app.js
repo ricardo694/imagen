@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Principal from "../Paginas/Page";
+import Principal from "../Paginas/ContenedorPage";
 // import Crear from "../Paginas/Crear";
 import NotFound from "./NotFound"
 import Navi from "../Paginas/Navi";
